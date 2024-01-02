@@ -1,0 +1,45 @@
+.account-information-title{
+    font-size: 22px;
+    color: #767474;
+    font-weight: 700;
+    margin: 5px 0;
+}
+
+.account-information-input-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.account-information-input{
+    padding: 10px 20px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #c4c1c1;
+}
+
+.account-information-separator{
+    width: 100%;
+    height: 1px;
+    background-color: #c6c2c2;
+    margin: 30px 0;
+    border: none;
+}
+
+.account-btn{
+    align-self: center;
+    padding: 10px 30px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #fff;
+    background-color: #182f3f;
+    transition: 0.3s ease;
+    border-radius: 5px;
+}
+
+.account-btn:hover{
+    background-color: #032137;
+}

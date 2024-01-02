@@ -1,0 +1,128 @@
+.parts-show{
+    width: 100%;
+    background-color: #182f3f;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.parts-show-wrapper{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.parts-show-wrapper > h3{
+    margin: 30px 0;
+    padding-top: 10px;
+    font-weight: 500;
+    font-size: 25px;
+    align-self: flex-start;
+}
+
+.parts-show-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 85%;
+    margin: 30px 0;
+    gap: 2%;
+}
+
+.parts-show-item{
+    height: 300px;
+    width: 32%;
+    background-color: #fff;
+    color: #182f3f;
+    border-radius: 5px;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.parts-show-item-title{
+    text-decoration: none;
+    font-size: 23px;
+    color: darkblue;
+    font-weight: 600;
+    align-self: flex-start;
+    margin: 10px 0;
+}
+
+.parts-show-item-container{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    margin: 10px 0;
+}
+
+.parts-show-item-description{
+    flex: 3;
+    font-weight: 450;
+    font-size: 17px;
+    color: #111;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    overflow-y: hidden;
+}
+
+.parts-show-item-description-link{
+    text-decoration: none;
+}
+
+.parts-show-item-image{
+    height: 100%;
+    width: 50%;
+}
+
+.parts-show-item-separator{
+    width: 100%;
+    height: 1px;
+    background-color: #c6c1c1;
+    margin: 15px 0;
+}
+
+.parts-show-item-btn, .parts-show-btn{
+    align-self: flex-end;
+    padding: 10px 30px;
+    border: 1px solid #182f3f;
+    color: #182f3f;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.parts-show-item-btn:hover, .parts-show-btn:hover{
+    border: 1px solid #FE0000;
+    color: #fff;
+    background-color: #FE0000;
+}
+
+.parts-show-btn{
+    border: none;
+    align-self: center;
+}
+
+.parts-show-btn:hover{
+    border: none;
+}
+
+@media (min-width:350px) and (max-width:750px){
+    .parts-show-list{
+        width: 90%;
+    }
+
+    .parts-show-item{
+        width: 100%;
+    }
+}

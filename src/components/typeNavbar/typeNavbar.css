@@ -1,0 +1,50 @@
+.select-navbar{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #182f3f;
+    position: sticky;
+    top: 70px;
+    z-index: 50;
+}
+
+.select-navbar-item{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+}
+
+#hover{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 4px;
+    background-color: #CF1E35;
+    display: none;
+}
+
+.select-navbar-item:hover > #hover{
+    display: block;
+}
+
+.select-navbar-item > span{
+    margin-left: 10px;
+    color: #fff;
+}
+
+@media (min-width:350px) and (max-width:750px){
+    .select-navbar{
+        position: static;
+    }
+
+    .select-navbar-item{
+        width: 15%;
+    }
+}

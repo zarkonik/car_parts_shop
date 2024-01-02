@@ -1,0 +1,135 @@
+.footer{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.footer-main{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-container, .footer-bilten{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+}
+
+.footer-contact-item{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.footer-span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #575858;
+    text-decoration: none;
+}
+
+.footer-title{
+    font-size: 18px;
+    font-weight: 600;
+    color: #182f3f;
+    margin-bottom: 10px;
+}
+
+.footer-bilten{
+    width: 30%;
+}
+
+.footer-input{
+    width: 100%;
+    border: 1px solid #182f3f;
+    height: 35px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.footer-input > input{
+    height: 100%;
+    width: 100%;
+    padding: 5px 40px 5px 15px;
+    border: none;
+    outline: none;
+}
+
+.footer-input-icon-container{
+    position: absolute;
+    right: 0px;
+    background-color: #182f3f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 35px;
+}
+
+.footer-line{
+    width: 100%;
+    height: 1px;
+    background-color: #a3a7a7;
+    margin: 30px 0;
+}
+
+.footer-links{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+@media (min-width:350px) and (max-width:750px){
+    .footer{
+        padding: 10px;
+        margin: 20px 0;
+        height: auto;
+    }
+
+    .footer-main{
+        height: auto;
+        flex-direction: column;
+    }
+
+    .footer-container{
+        width: 100%;
+    }
+
+    .footer-contact-item{
+        padding-left: 10px;
+    }
+
+    .footer-span{
+        padding-left: 10px;
+    }
+
+    .footer-bilten{
+        width: 100%;
+    }
+
+    .footer-bilten > h3{
+        align-self: center;
+    }
+
+    .footer-bilten > .footer-span{
+        text-align: center;
+    }
+}

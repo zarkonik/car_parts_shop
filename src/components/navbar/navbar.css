@@ -1,0 +1,240 @@
+.navbar{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    background-color: #fff;;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar-logo{
+    width: 20%;
+    height: 70%;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-logo > span{
+    text-align: center;
+    color: #182f3f;
+    font-size: 22px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.navbar-options{
+    width: 75%;
+    height: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbar-search{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.navbar-search-input{
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 40px; 
+    border: 1px solid #c6c1c1;
+    outline: none;
+}
+
+.navbar-search-icon{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    right: 0;
+    background-color: #CF1E35;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.navbar-search-items{
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    z-index: 100;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.navbar-search-item{
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.navbar-search-item:hover{
+    background-color: #182f3f;
+    color: #fff;
+}
+
+.navbar-phonenumber{
+    height: 30px;
+    width: 13%;
+    background-color: #182f3f;
+    color: #fff;
+    border-radius: 5px;
+    margin: 0 20px;
+    padding: 3px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.navbar-phonenumber > span{
+    height: 100%;
+    font-weight: 600;
+}
+
+.navbar-login{
+    height: 30px;
+    width: 14%;
+    background-color: #fff;
+    color: #182f3f;
+    border-radius: 5px;
+    border: 1px solid #182f3f;
+    margin: 0 10px;
+    padding: 3px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+}
+
+.navbar-login > span{
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.navbar-account-menu{
+    position: absolute;
+    top: calc(100% + 10px);
+    z-index: 100;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.navbar-account-menu-item{
+    text-transform: uppercase;
+    padding: 5px 0;
+    transition: 0.2s ease;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar-account-menu-item:hover{
+    background-color: #182f3f;
+    color: #fff;
+}
+
+.navbar-wishlist{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.navbar-cart{
+    height: 30px;
+    width: 14%;
+    background-color: #fff;
+    color: #182f3f;
+    border-radius: 5px;
+    padding: 3px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;     
+    cursor: pointer;
+    position: relative;
+}
+
+.navbar-cart > span{
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+@media (min-width: 350px) and (max-width: 750px){
+    .navbar{
+        height: 130px;
+        flex-direction: column;
+        padding: 0 20px;
+        position: static;
+    }
+
+    .navbar-logo{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+    }
+
+    .navbar-icons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .navbar-login{
+        margin: 0;
+        border: none;
+    }
+
+    .navbar-wishlist{
+        margin: 0;
+    }
+
+    .navbar-cart{
+        margin: 0;
+    }
+
+    .navbar-options{
+        width: 100%;
+        height: 50%;
+    }
+
+    .navbar-search{
+        width: 100%;
+        height: 100%;
+    }
+
+    .navbar-account-menu{
+        width: 150px
+    }
+}

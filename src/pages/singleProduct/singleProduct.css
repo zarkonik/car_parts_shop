@@ -1,0 +1,236 @@
+.product{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.single-product{
+    width: 90%;
+    height: 70vh;
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+}
+
+.single-product-left{
+    height: 100%;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.single-product-left-show{
+    width: 90%;
+    height: 65%;
+}
+
+.single-product-left-all{
+    display: flex;
+    width: 100%;
+    height: 25%;
+    gap: 10px;
+}
+
+.single-product-left-image{
+    flex: 1;
+    height: 100%;
+    transition: 0.3s ease;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.single-product-left-image:hover{
+    border: 1px solid #4e4c4c;  
+}
+
+.single-product-middle{
+    flex: 1;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 40px;
+    padding: 0 50px;
+    border-left: 1px solid #aba9a9;
+    border-right: 1px solid #aba9a9;
+    color: #7a7878
+}
+
+.single-product-middle-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.single-product-middle-text{
+    font-size: 15px;
+}
+
+.single-product-right{
+    flex: 1;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.single-product-right-counter{
+    display: flex;
+    width: 65%;
+    height: 10%;
+    margin-top: 20px;
+}
+
+.single-product-right-counter-opp{
+    height: 100%;
+    width: 20%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #aba9a9;
+    cursor: pointer;
+    transition: 0.3s ease;
+    padding-bottom: 5px;
+    user-select: none;
+}
+
+.single-product-right-counter-opp:hover{
+    background-color: #f37122;
+    color: #fff;
+}
+
+.single-product-right-counter-number{
+    background-color: #fff;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 60%;
+    border-top: 1px solid #aba9a9;
+    border-bottom: 1px solid #aba9a9;
+}
+
+.product-separator{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    background-color: #182f3f;
+}
+
+.product-separator-item{
+    display: flex;
+    width: 20%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #fff
+}
+
+.product-separator-item > span{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.product-details{
+    height: 70vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.product-details.smaller{
+    height: 40vh;
+}
+
+.product-details-select{
+    margin: 20px 0;
+    width: 100%;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.product-details-button{
+    flex: 1;
+    height: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    color: #182f3f;
+    cursor: pointer;
+    border: 1px solid #182f3f;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.product-details-button:hover, .product-details-button.selected{
+    background-color: #182f3f;
+    color: #fff;
+    border: 1px solid #182f3f;
+}
+
+.product-details-information{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-details-information.smaller{
+    height: 200px;
+}
+
+.product-details-information-info{
+    height: 80%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.product-details-information-info-item{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.product-details-information-info-item.colored{
+    background-color: #dcd8d8;
+}
+
+.product-details-information-info-item > span, .product-details-information-info-item > h4{
+    width: 30%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 5px;
+}
+
+
+.product-details-information-delivery{
+    width: 80%;
+    font-weight: 500;
+    color: #182f3f;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}

@@ -1,0 +1,50 @@
+.account{
+    width: 90%;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.account-asside{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    width: 30%;
+}
+
+.account-main-title{
+    color: #272727;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 5px;
+}
+
+.account-separator{
+    width: 100%;
+    border: 2px solid #182f3f;
+}
+
+.account-asside-item{
+    width: 100%;
+    text-align: start;
+    color: #182f3f;
+    padding: 10px 0;
+    padding-left: 15px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.account-asside-item:hover{
+    color: #fff;
+    background-color: #182f3f;
+}
+
+.account-main{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}

@@ -1,0 +1,117 @@
+.transaction-modal{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(49, 47, 47, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -140px;
+    left: 0;
+    z-index: 101;
+    
+}
+
+.transaction-modal-wrapper{
+    height: 95vh;
+    width: 95vw;
+    background-color: #f5e5e5;
+    color: #111;
+    position: relative;
+
+ }
+
+.modal-cancel{
+    position: absolute;
+    top: 10px; right: 20px;
+    border: none;
+    background: none;
+    font-size: 18px;
+    transition: 0.3s ease;
+}
+
+.modal-cancel:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.user-information
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.user-info
+{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.products-transaction
+{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow-y: scroll;
+  
+}
+
+.product-transaction
+{  
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 300px;
+}
+
+.product-transaction > img
+{
+    height: 200px;
+    width: 100%;
+}
+.product-transaction-name
+{
+    height: 70px;
+    margin: 10px 0;
+}
+.product-transaction > h3
+{
+    margin: 5px 0;
+}
+
+.price-sum
+{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.button-price
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+.button-transaction
+{
+    padding: 10px 40px;
+    background-color: #FE0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+   
+}

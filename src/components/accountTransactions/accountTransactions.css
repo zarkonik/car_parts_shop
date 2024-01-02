@@ -1,0 +1,37 @@
+.account-transactions{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.account-transactions-item{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 10px;
+}
+
+.account-transaction-item-header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2px;
+}
+
+.account-transaction-product{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: #182f3f;
+    color: #fff;
+    padding: 5px;
+}
+
+.account-transaction-product-item{
+    display: flex;
+    gap: 5px;
+}

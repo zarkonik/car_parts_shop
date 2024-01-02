@@ -1,0 +1,40 @@
+.admin-panel{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+}
+
+.admin-panel-asside{
+    flex: 1;
+    height: 100vh;
+    background-color: #182f3f;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.admin-panel-asside-item{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.admin-panel-asside-item:hover{
+    background-color: #fff;
+    color: #182f3f;
+}
+
+.admin-panel-main{
+    flex: 7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}

@@ -1,0 +1,138 @@
+.admin-users-header{
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.admin-users-title{
+    font-size: 25px;
+    font-weight: 700;
+    color: #182f3f;
+}
+
+.admin-users-add-btn{
+    padding: 5px 20px;
+    border: none;
+    background-color: #182f3f;
+    color: #fff;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.admin-users-add-btn:hover{
+    background-color: #f37122;
+}
+
+.admin-users-add{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.admin-users-input{
+    width: 20%;
+    height: 100%;
+    padding: 0px 10px;
+}
+
+.admin-users-input-box{
+    width: 100%;
+    padding: 0 5px;
+    outline: none;
+}
+
+.admin-users-main-list{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 30px 0;
+    overflow-y: auto;
+    height: 350px;
+}
+
+.admin-users-main-header{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    min-height: 30px;
+    background-color: #182f3f;
+    color: #fff;
+}
+
+.admin-users-main-item{
+    width: 20%;
+    padding: 0 5px;
+    border: 1px solid #182f3f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.admin-users-main-row{
+    width: 100%;
+    display: flex;
+    min-height: 30px;
+    cursor: pointer;
+}
+
+.admin-users-main-item-options{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #182f3f;   
+}
+
+.admin-users-update{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #383838;
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin-users-update-wrapper{
+    height: 50%;
+    width: 50%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    gap: 20px;
+    position: relative;
+}
+
+.admin-users-update-cancel{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.admin-users-update-input{
+    width: 80%;
+    height: 50px;
+}
+
+.admin-users-update-input-box{
+    width: 100%;
+    height: 30px;
+}

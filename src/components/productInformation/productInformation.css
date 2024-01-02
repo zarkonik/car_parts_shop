@@ -1,0 +1,118 @@
+.product-information{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px 10px;
+    gap: 20px;
+}
+
+.product-information-title{
+    font-size: 14px;
+    color: #514f4f
+}
+
+.product-information-contact{
+    height: 25px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    color: #182f3f;
+    font-weight: 500;
+}
+
+.product-information-contact.phone{
+    color: #02111c
+}
+
+.product-information-contact.available{
+    color: green;
+}
+
+.product-information-contact.unavailable{
+    color: #CF1E35;
+}
+
+.product-information-price{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px 0;
+    font-weight: 500;
+    color: #02111c;
+}
+
+.product-information-price > .text{
+    font-size: 17px;
+}
+
+.product-information-price > .price{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.product-information-price > .price > h3{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.product-information-price > .price > span{
+    font-size: 15px;
+    margin-bottom: 8px;
+    margin-right: 5px;
+}
+
+.product-information-btn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s ease;
+    position: relative;
+    gap: 10px;
+}
+
+.product-information-btn.cart-btn{
+    background-color: green;
+    color: #fff;
+    border: none;
+    margin-bottom: 5px;
+}
+.product-information-btn.cart-btn.unavailable
+{
+    background-color: #CF1E35;
+    color: #fff;
+    border: none;
+    margin-bottom: 5px;
+}
+.product-information-btn.cart-btn:hover{
+    background-color: #CF1E35;
+}
+
+.product-information-btn.wishlist{
+    border: 1px solid #02111c;
+    color: #02111c;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.product-information-btn.wishlist:hover{
+    border: 1px solid #FE0000;
+    color: #fff;
+    background-color: #FE0000;
+}
+
+.product-information-icon{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    margin-top: -10px;
+}
